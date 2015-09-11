@@ -40,7 +40,6 @@ POST http://server/git4ol-events/trigger/event.name?callback=http://other_server
 ```
 
 ```
-->
 POST http://other_server/handler?id=12345
 {
   "result": "value"
